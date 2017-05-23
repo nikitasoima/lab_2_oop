@@ -1,0 +1,39 @@
+﻿Сборка начата 23.05.2017 23:08:33.
+     1>Проект "C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Lab_2_OOP\Lab_2_OOP.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Lab_2_OOP.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LinkedList.cpp Stack.cpp
+     1>cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+         Stack.cpp
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\stack.cpp(22): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\stack.cpp(25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\stack.cpp(28): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(937): см. объявление "itoa"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\stack.cpp(30): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+         LinkedList.cpp
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\linkedlist.cpp(27): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\linkedlist.cpp(30): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\linkedlist.cpp(34): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(937): см. объявление "itoa"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_2_oop\lab_2_oop\linkedlist.cpp(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): см. объявление "strcat"
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Debug\Lab_2_OOP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Debug\Lab_2_OOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Debug\Lab_2_OOP.lib" /MACHINE:X86 Debug\DataNode.obj
+         Debug\Lab_2_OOP.obj
+         Debug\LinkedList.obj
+         Debug\Queue.obj
+         Debug\Stack.obj
+         Debug\StaticArray.obj
+         Debug\StaticDeque.obj
+         Debug\stdafx.obj
+         Lab_2_OOP.vcxproj -> C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Debug\Lab_2_OOP.exe
+     1>Сборка проекта "C:\Users\vasia\documents\visual studio 2013\Projects\Lab_2_OOP\Lab_2_OOP\Lab_2_OOP.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:32.75
